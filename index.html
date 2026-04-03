@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omran Yapı - Gebze, Kocaeli'de iç ve dış cephe tadilat, dekorasyon ve finishing hizmetleri">
+    <title>Omran Yapı | İç & Dış Cephe Tadilat ve Dekorasyon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#home">
+                        <span class="logo-icon"><i class="fas fa-building"></i></span>
+                        <span class="logo-text">OMRAN <span class="accent">YAPI</span></span>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link" data-i18n="nav_home">Ana Sayfa</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">Hakkımızda</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">Hizmetler</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-i18n="nav_portfolio">Projeler</a></li>
+                    <li><a href="#testimonials" class="nav-link" data-i18n="nav_testimonials">Referanslar</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">İletişim</a></li>
+                </ul>
+                <div class="nav-extras">
+                    <div class="language-selector">
+                        <button class="lang-btn" data-lang="tr" title="Türkçe">TR</button>
+                        <button class="lang-btn active" data-lang="en" title="English">EN</button>
+                        <button class="lang-btn" data-lang="ar" title="العربية">AR</button>
+                    </div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero_title">Mekanlarınızı Sanata Dönüştürüyoruz</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">İç ve dış cephe tadilat, dekorasyon ve finishing hizmetlerinde 15 yılı aşkın deneyim</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero_cta">Ücretsiz Keşif Alın</a>
+                <a href="#portfolio" class="btn btn-outline" data-i18n="hero_cta_secondary">Projelerimiz</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label" data-i18n="about_label">Hakkımızda</span>
+                    <h2 class="section-title" data-i18n="about_title">Kalite ve Güvenle İnşa Ediyoruz</h2>
+                    <p class="about-text" data-i18n="about_text1">Omran Yapı olarak, Gebze ve Kocaeli bölgesinde iç ve dış cephe tadilat, dekorasyon ve finishing hizmetleri sunmaktayız. 15 yılı aşkın sektör deneyimimizle, ev ve iş yerlerinizi en kaliteli malzemeler ve ustalıkla yeniliyoruz.</p>
+                    <p class="about-text" data-i18n="about_text2">Mimari tasarım anlayışımız, fonksiyonelliği estetikle buluşturarak mekanlara değer katmaktır. Her projemizde müşteri memnuniyetini ön planda tutarak, zamanında ve bütçe dostu çözümler sunuyoruz.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="feature_1">15+ Yıl Deneyim</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="feature_2">500+ Tamamlanan Proje</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="feature_3">Profesyonel Ekip</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="feature_4">Garanti Belgeli İşçilik</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="services_label">Hizmetlerimiz</span>
+                <h2 class="section-title" data-i18n="services_title">Profesyonel Çözümlerimiz</h2>
+                <p class="section-subtitle" data-i18n="services_subtitle">Her türlü iç ve dış cephe ihtiyacınız için yanınızdayız</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3 data-i18n="service_1_title">Boya ve Badana</h3>
+                    <p data-i18n="service_1_desc">İç ve dış cephe boya hizmetleri, dekoratif boyalar, alçı ve sıva uygulamaları</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-th-large"></i>
+                    </div>
+                    <h3 data-i18n="service_2_title">Seramik ve Fayans</h3>
+                    <p data-i18n="service_2_desc">Banyo, mutfak ve zemin seramik döşeme, fayans yenileme ve derz uygulamaları</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 data-i18n="service_3_title">Zemin Kaplama</h3>
+                    <p data-i18n="service_3_desc">Laminat parke, vinil, seramik ve granit zemin kaplama çözümleri</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3 data-i18n="service_4_title">Alçıpan ve Asma Tavan</h3>
+                    <p data-i18n="service_4_desc">Alçıpan bölme, asma tavan, dekoratif tavan uygulamaları</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3 data-i18n="service_5_title">Kapı ve Pencere</h3>
+                    <p data-i18n="service_5_desc">İç mekan kapıları, çelik kapı, PVC doğrama ve pencere montajı</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 data-i18n="service_6_title">Dış Cephe Mantolama</h3>
+                    <p data-i18n="service_6_desc">Isı yalıtımı, dış cephe kaplama, mantolama ve cephe yenileme</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bath"></i>
+                    </div>
+                    <h3 data-i18n="service_7_title">Tadilat ve Yenileme</h3>
+                    <p data-i18n="service_7_desc">Banyo, mutfak ve tüm mekanlar için komple tadilat hizmetleri</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3 data-i18n="service_8_title">Mimari Danışmanlık</h3>
+                    <p data-i18n="service_8_desc">İç mekan tasarımı, renk danışmanlığı ve malzeme seçimi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="portfolio_label">Projelerimiz</span>
+                <h2 class="section-title" data-i18n="portfolio_title">Tamamlanan Çalışmalar</h2>
+                <p class="section-subtitle" data-i18n="portfolio_subtitle">Başarıyla tamamladığımız proje örnekleri</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Tümü</button>
+                <button class="filter-btn" data-filter="interior" data-i18n="filter_interior">İç Mekan</button>
+                <button class="filter-btn" data-filter="exterior" data-i18n="filter_exterior">Dış Cephe</button>
+                <button class="filter-btn" data-filter="commercial" data-i18n="filter_commercial">Ticari</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="interior">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_1_title">Modern Mutfak Tadilatı</h4>
+                            <p data-i18n="project_1_desc">Gebze - Konut</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="exterior">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_2_title">Dış Cephe Yenileme</h4>
+                            <p data-i18n="project_2_desc">Kocaeli - Apartman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_3_title">Ofis Dekorasyonu</h4>
+                            <p data-i18n="project_3_desc">Gebze - Ticari</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="interior">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_4_title">Banyo Yenileme</h4>
+                            <p data-i18n="project_4_desc">Kocaeli - Konut</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="exterior">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_5_title">Villa Dış Cephe</h4>
+                            <p data-i18n="project_5_desc">Gebze - Villa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image">
+                        <i class="fas fa-image"></i>
+                        <div class="portfolio-overlay">
+                            <h4 data-i18n="project_6_title">Restoran İç Mekan</h4>
+                            <p data-i18n="project_6_desc">Kocaeli - Ticari</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label" data-i18n="stat_projects">Tamamlanan Proje</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label" data-i18n="stat_experience">Yıl Deneyim</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">450+</div>
+                    <div class="stat-label" data-i18n="stat_clients">Mutlu Müşteri</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label" data-i18n="stat_team">Ekip Üyesi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="testimonials_label">Müşteri Yorumları</span>
+                <h2 class="section-title" data-i18n="testimonials_title">Müşterilerimiz Ne Diyor?</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_1_text">"Evimizin tadilatını mükemmel bir şekilde tamamladılar. Profesyonel yaklaşımları ve zamanında teslimatları için teşekkürler."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h5>Ahmet Y.</h5>
+                            <span data-i18n="testimonial_1_location">Gebze, Kocaeli</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_2_text">"Ofisimizin dekorasyonu için harika bir iş çıkardılar. Çalışanlarımız yeni ortamdan çok memnun."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h5>Fatma K.</h5>
+                            <span data-i18n="testimonial_2_location">Kocaeli</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial_3_text">"Dış cephe mantolama işimizi sorunsuz bir şekilde tamamladılar. Artık evimiz çok daha sıcak."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h5>Mehmet D.</h5>
+                            <span data-i18n="testimonial_3_location">Gebze</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="contact_label">İletişim</span>
+                <h2 class="section-title" data-i18n="contact_title">Bize Ulaşın</h2>
+                <p class="section-subtitle" data-i18n="contact_subtitle">Ücretsiz keşif ve fiyat teklifi için iletişime geçin</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact_address_title">Adres</h4>
+                            <p data-i18n="contact_address">Gebze Mahallesi, İnşaat Caddesi No: 42<br>41400 Gebze, Kocaeli, Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact_phone_title">Telefon</h4>
+                            <p><a href="tel:+905010660092">+90 501 066 00 92</a></p>
+                            <p><a href="tel:+905316546103">+90 531 654 61 03</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact_email_title">E-posta</h4>
+                            <p><a href="mailto:info@omranyapi.com">info@omranyapi.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact_hours_title">Çalışma Saatleri</h4>
+                            <p data-i18n="contact_hours">Pazartesi - Cumartesi: 08:00 - 18:00<br>Pazar: Kapalı</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/omran_yapi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder=" ">
+                            <label for="name" data-i18n="form_name">Adınız Soyadınız</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" required placeholder=" ">
+                            <label for="phone" data-i18n="form_phone">Telefon Numaranız</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required placeholder=" ">
+                            <label for="email" data-i18n="form_email">E-posta Adresiniz</label>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="" disabled selected data-i18n="form_service_default">Hizmet Seçin</option>
+                                <option value="paint" data-i18n="form_service_paint">Boya ve Badana</option>
+                                <option value="ceramic" data-i18n="form_service_ceramic">Seramik ve Fayans</option>
+                                <option value="flooring" data-i18n="form_service_flooring">Zemin Kaplama</option>
+                                <option value="drywall" data-i18n="form_service_drywall">Alçıpan ve Asma Tavan</option>
+                                <option value="doors" data-i18n="form_service_doors">Kapı ve Pencere</option>
+                                <option value="insulation" data-i18n="form_service_insulation">Dış Cephe Mantolama</option>
+                                <option value="renovation" data-i18n="form_service_renovation">Tadilat ve Yenileme</option>
+                                <option value="consulting" data-i18n="form_service_consulting">Mimari Danışmanlık</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message" data-i18n="form_message">Mesajınız</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">Gönder</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48146.46234895498!2d29.3957688!3d40.7914899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad7c0f6c8c007%3A0x3c0c8c0f6c8c007!2sGebze%2C%20Kocaeli!5e0!3m2!1str!2str!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-building"></i></span>
+                        <span class="logo-text">OMRAN <span class="accent">YAPI</span></span>
+                    </div>
+                    <p class="footer-desc" data-i18n="footer_desc">İç ve dış cephe tadilat, dekorasyon ve finishing hizmetlerinde güvenilir adresiniz.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_services_title">Hizmetler</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services" data-i18n="service_1_title">Boya ve Badana</a></li>
+                        <li><a href="#services" data-i18n="service_2_title">Seramik ve Fayans</a></li>
+                        <li><a href="#services" data-i18n="service_3_title">Zemin Kaplama</a></li>
+                        <li><a href="#services" data-i18n="service_6_title">Dış Cephe Mantolama</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_links_title">Hızlı Bağlantılar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-i18n="nav_home">Ana Sayfa</a></li>
+                        <li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
+                        <li><a href="#portfolio" data-i18n="nav_portfolio">Projeler</a></li>
+                        <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_contact_title">İletişim</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+905010660092">+90 501 066 00 92</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@omranyapi.com">info@omranyapi.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer_location">Gebze, Kocaeli</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Omran Yapı. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
