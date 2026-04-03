@@ -110,11 +110,10 @@ img {
 .logo a {
     display: flex;
     align-items: center;
-    gap: 12px;
 }
 
 .logo-img {
-    height: 50px;
+    height: 60px;
     width: auto;
     object-fit: contain;
 }
@@ -919,21 +918,13 @@ body[dir="rtl"] .form-group textarea {
 }
 
 .footer-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
     margin-bottom: 15px;
 }
 
 .footer-logo-img {
-    height: 45px;
+    height: 55px;
     width: auto;
     object-fit: contain;
-}
-
-.footer-logo .logo-text {
-    color: var(--white);
-    font-size: 1.3rem;
 }
 
 .footer-desc {
