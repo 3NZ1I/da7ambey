@@ -113,9 +113,10 @@ img {
     gap: 12px;
 }
 
-.logo-icon {
-    font-size: 2rem;
-    color: var(--accent);
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
@@ -924,9 +925,10 @@ body[dir="rtl"] .form-group textarea {
     margin-bottom: 15px;
 }
 
-.footer-logo .logo-icon {
-    font-size: 1.8rem;
-    color: var(--accent);
+.footer-logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-logo .logo-text {
