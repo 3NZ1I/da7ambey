@@ -986,6 +986,17 @@ body[dir="rtl"] .form-group textarea {
     color: var(--medium-gray);
 }
 
+.footer-bottom a {
+    color: var(--accent);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.footer-bottom a:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+
 /* ===== Back to Top Button ===== */
 .back-to-top {
     position: fixed;
